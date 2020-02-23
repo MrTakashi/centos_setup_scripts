@@ -2,8 +2,8 @@
 
 # Generate new ssh-key
 echo "$(tput setaf 2)[Generate new ssh-key]$(tput sgr 0)"
-echo "$(tput setaf 3)$ ssh-keygen$(tput sgr 0)"
-ssh-keygen
+echo "$(tput setaf 3)$ ssh-keygen -b 2048 -t rsa -f $HOME/.ssh/id_rsa -q -N ""$(tput sgr 0)"
+ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N ""
 
 echo "$(tput setaf 3)$ ls -al ~/.ssh/$(tput sgr 0)"
 ls -al ~/.ssh/
