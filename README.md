@@ -1,2 +1,4 @@
-# centos_setup_scripts
-Several usefull sh-scripts (FIREWALLD, NTP, YUM, SSHD, PHP, APACHE, NGINX, MYSQL, ...)
+# CentOS Setup Scripts
+
+This repository contains scripts for installing CentOS.
+
