@@ -1,14 +1,21 @@
 #!/bin/bash
 
 # Generate new ssh-key
+echo "$(tput setaf 2)[Generate new ssh-key]$(tput sgr 0)"
+echo "$(tput setaf 3)$ ssh-keygen$(tput sgr 0)"
 ssh-keygen
 
+echo "$(tput setaf 3)$ ls -al ~/.ssh/$(tput sgr 0)"
 ls -al ~/.ssh/
 
 # Add private key to localhost
+echo "$(tput setaf 2)[Add private key to localhost]$(tput sgr 0)"
+echo "$(tput setaf 3)$ ssh-copy-id root@localhost$(tput sgr 0)"
 ssh-copy-id root@localhost
 
-# Print private (now you can copy it from screen)
+# Print private key (now you can copy it from screen)
+echo "$(tput setaf 2)[Print private key (now you can copy it from screen)]$(tput sgr 0)"
+echo "$(tput setaf 3)$ cat ~/.ssh/id_rsa$(tput sgr 0)"
 cat ~/.ssh/id_rsa
 
 ############ PuTTY setup ############
