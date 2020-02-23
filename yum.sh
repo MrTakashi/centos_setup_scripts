@@ -10,11 +10,11 @@ echo "$(tput setaf 2)[Install and configure yum-cron for automatic updates]$(tpu
 echo "$(tput setaf 3)$ yum install -y yum-cron$(tput sgr 0)"
 yum install -y yum-cron
 	
-# Say yum-cron to setup security updates automaticly
+# Say yum-cron to install security updates automatically
 #	vi /etc/yum/yum-cron.conf
 #		update_cmd = security		
 #		apply_updates = yes			
-echo "$(tput setaf 2)[Say yum-cron to setup security updates automaticly]$(tput sgr 0)"
+echo "$(tput setaf 2)[Say yum-cron to install security updates automatically]$(tput sgr 0)"
 echo "$(tput setaf 3)$ sed -i -r 's/^update_cmd = default.*/update_cmd = security/' /etc/yum/yum-cron.conf$(tput sgr 0)"
 echo "$(tput setaf 3)$ sed -i -r 's/^apply_updates = no.*/apply_updates = yes/' /etc/yum/yum-cron.conf$(tput sgr 0)"
 sed -i -r 's/^update_cmd = default.*/update_cmd = security/' /etc/yum/yum-cron.conf
