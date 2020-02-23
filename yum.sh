@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Update all existing packages
-echo ">>> Update all existing packages"
-echo "$ yum check-update && yum -y update"
+echo "$(tput setaf 2)[Update all existing packages]$(tput sgr 0)"
+echo "$(tput setaf 3)$ yum check-update && yum -y update$(tput sgr 0)"
 yum check-update && yum -y update
 
 # Install and configure yum-cron for automatic updates
