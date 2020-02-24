@@ -14,38 +14,38 @@ echo "$(tput setaf 3)$ ssh-copy-id root@localhost$(tput sgr 0)"
 ssh-copy-id root@localhost
 
 # Print private key (now you can copy it from screen)
-echo "$(tput setaf 2)[Print private key (now you can copy it from screen)]$(tput sgr 0)"
+echo "$(tput setaf 2)[Print private key (now you can copy it from screen]$(tput sgr 0)"
 echo "$(tput setaf 3)$ cat ~/.ssh/id_rsa$(tput sgr 0)"
 cat ~/.ssh/id_rsa
 
-############ PuTTY setup ############
-### Convert private key to putty format with puttygen.exe
-# File \ Load Private Key \
-# choose *.*
-# choose id_rsa
+echo "$(tput setaf 2)[Instruction for PuTTY]$"
+echo "$(tput setaf 4)############ PuTTY setup ############"
+echo "### Convert private key to putty format with puttygen.exe"
+echo "# File -> Load Private Key"
+echo "# choose *.*"
+echo "# choose id_rsa"
 
-# add comment: %usually I use server or vps name%
+echo "# add comment: %usually I use server or vps name%"
 
-# save "save private key"
-# id_rsa.ppk
+echo "# save save private key"
+echo "# id_rsa.ppk"
 
-### PuTTY session setup
-##Session
-# Host Name or IP %%
-# Port            ssh port    
-# Saved Session   %session name server (IP) user key%
+echo "### PuTTY session setup"
+echo "##Session"
+echo "# Host Name or IP %%"
+echo "# Port            ssh port"
+echo "# Saved Session   %session name server (IP) user key%"
 
-##Window
-# Columns				160
-# Rows				36
+echo "##Window"
+echo "# Columns  160"
+echo "# Rows      36"
 
-## Connection
-# Data
-# Auto-login username	mk
-# SSH \ Auth
-# Private key file %PATH\id_rsa.ppk%
+echo "## Connection"
+echo "# Data"
+echo "# Auto-login username	mk"
+echo "# SSH -> Auth"
+echo "# Private key file %PATH\id_rsa.ppk%"
 
-#Session => Save
+echo "#Session -> Save"
 
-
-### Now we can connect to our server with key using PuTTY
+echo "### Now we can connect to our server with key using PuTTY$(tput sgr 0)"
