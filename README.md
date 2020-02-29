@@ -15,6 +15,7 @@ This repository contains my scripts tested with CentOS 7
 | [ssh.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/ssh.sh) | Create ssh-key and install it into server 
 | [php7.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/php7.sh) | Install PHP 7.x 
 | [mariadb.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/mariadb.sh) | Install Maria DB
+| [apache.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/apache.sh) | Install Apache
 | []() |  |
 
 
@@ -36,6 +37,11 @@ mariadb
 ```sh
 curl -L https://raw.githubusercontent.com/MrTakashi/centos_setup_scripts/master/mariadb.sh | sh
 ```
+apache
+```sh
+curl -L https://raw.githubusercontent.com/MrTakashi/centos_setup_scripts/master/apache.sh | sh
+```
+
 
 ### Todos
 
