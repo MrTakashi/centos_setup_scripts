@@ -2,25 +2,23 @@
 
 This repository contains my scripts tested with CentOS 7
 
-# Instructions
+## Instructions
 
 1. Setup CentOS with ISO from http://isoredirect.centos.org/centos/7/isos/x86_64/
 2. Use scripts as described below
 
-### Scripts
+## Scripts
 
 | Script | Discription |
 | ------ | ------ |
 | [yum.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/yum.sh) | Setup security patches autoupdate
-| [ssh.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/ssh.sh) | Create ssh-key and install it into server 
-| [php7.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/php7.sh) | Install PHP 7.x 
+| [ssh.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/ssh.sh) | Create ssh-key and install it into server
+| [php7.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/php7.sh) | Install PHP 7
 | [mariadb.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/mariadb.sh) | Install Maria DB
 | [apache.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/apache.sh) | Install Apache
-| [selinux_disable.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/selinux_disable.sh) | SE Linux disable
-| []() |  |
+| [selinux_disable.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/selinux_disable.sh) | Disable SE Linux
 
-selinux_disable
-# Run commands
+## Run commands
 
 yum
 ```sh
