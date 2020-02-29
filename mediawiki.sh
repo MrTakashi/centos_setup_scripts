@@ -21,3 +21,7 @@ echo "$(tput setaf 2)Restarting httpd.service$(tput sgr 0)"
 echo "$(tput setaf 3)$ systemctl restart httpd.service$(tput sgr 0)"
 systemctl restart httpd.service
 
+# Git configuration
+yum -y install git
+yum -y groupinstall "Development Tools"
+yum -y install zlib-devel perl-ExtUtils-MakeMaker asciidoc xmlto openssl-devel
