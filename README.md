@@ -13,6 +13,7 @@ This repository contains my scripts tested with CentOS 7
 | ------ | ------ |
 | [yum.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/yum.sh) | Setup security patches autoupdate
 | [ssh.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/ssh.sh) | Create ssh-key and install it into server 
+| [php7.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/php7.sh) | Install PHP 7.x 
 | []() |  |
 
 
