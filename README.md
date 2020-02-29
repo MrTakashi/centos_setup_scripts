@@ -26,7 +26,10 @@ ssh
 ```sh
 curl -L https://raw.githubusercontent.com/MrTakashi/centos_setup_scripts/master/ssh.sh | sh
 ```
-
+php7
+```sh
+curl -L https://raw.githubusercontent.com/MrTakashi/centos_setup_scripts/master/php7.sh | sh
+```
 
 ### Todos
 
