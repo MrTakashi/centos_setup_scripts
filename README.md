@@ -17,6 +17,8 @@ This repository contains my scripts tested with CentOS 7
 | [mariadb.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/mariadb.sh) | Install Maria DB
 | [apache.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/apache.sh) | Install Apache
 | [selinux_disable.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/selinux_disable.sh) | Disable SE Linux
+| [mediawiki.sh](https://github.com/MrTakashi/centos_setup_scripts/blob/master/mediawiki.sh) | Disable SE Linux
+
 
 ## Run commands
 
@@ -43,6 +45,10 @@ curl -L https://raw.githubusercontent.com/MrTakashi/centos_setup_scripts/master/
 selinux_disable
 ```sh
 curl -L https://raw.githubusercontent.com/MrTakashi/centos_setup_scripts/master/selinux_disable.sh | sh
+```
+mediawiki
+```sh
+curl -L https://raw.githubusercontent.com/MrTakashi/centos_setup_scripts/master/mediawiki.sh | sh
 ```
 
 
