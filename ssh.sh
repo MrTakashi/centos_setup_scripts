@@ -21,28 +21,28 @@ cat ~/.ssh/id_rsa
 echo "$(tput setaf 2)[Instruction for PuTTY]$"
 echo "$(tput setaf 4)############ PuTTY setup ############"
 echo "### Convert private key to putty format with puttygen.exe"
-echo "# File -> Load Private Key"
-echo "# choose *.*"
+echo "# File -> Load private key"
+echo "# choose All Files (*.*)"
 echo "# choose id_rsa"
 
 echo "# add comment: %usually I use server or vps name%"
 
-echo "# save save private key"
+echo "# Save private key"
 echo "# id_rsa.ppk"
 
 echo "### PuTTY session setup"
-echo "##Session"
+echo "## Session"
 echo "# Host Name or IP %%"
 echo "# Port            ssh port"
 echo "# Saved Session   %session name server (IP) user key%"
 
-echo "##Window"
+echo "## Window"
 echo "# Columns  160"
 echo "# Rows      36"
 
 echo "## Connection"
 echo "# Data"
-echo "# Auto-login username	mk"
+echo "# Auto-login username	%your user name%"
 echo "# SSH -> Auth"
 echo "# Private key file %PATH\id_rsa.ppk%"
 
